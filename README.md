@@ -32,9 +32,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Create a module dbz
+## Create a module shared
 
 ```sh
 ng g module shared
-ng g c shared/sidebar --skip-tests
+ng g c shared/sidebar --skip-tests -is
+```
+
+## Create a module gifts
+
+```sh
+ng g module gifts
+ng g c gifts/gifsPage --skip-tests -is
+
+ng g c gifts/busqueda --skip-tests -is
+ng g c gifts/resultados --skip-tests -is
 ```
