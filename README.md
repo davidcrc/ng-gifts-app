@@ -60,3 +60,9 @@ Convert Data json to typescript
 ```
 https://app.quicktype.io/
 ```
+
+Add some animations
+
+```
+https://animate.style/
+```
