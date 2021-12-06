@@ -11,7 +11,6 @@ export class GifsService {
   private apiKey: string = '';
   private _history: string[] = [];
 
-  // TODO: change any for apropiated type
   public resultados: Gif[] = [];
 
   constructor(private http: HttpClient) {
