@@ -54,3 +54,9 @@ Create a service for gifts
 ```sh
 ng g service gifts/services/gifs --skip-tests
 ```
+
+Convert Data json to typescript
+
+```
+https://app.quicktype.io/
+```
