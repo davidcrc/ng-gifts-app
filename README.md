@@ -48,3 +48,9 @@ ng g c gifts/gifsPage --skip-tests -is
 ng g c gifts/busqueda --skip-tests -is
 ng g c gifts/resultados --skip-tests -is
 ```
+
+Create a service for gifts
+
+```sh
+ng g service gifts/services/gifs --skip-tests
+```
